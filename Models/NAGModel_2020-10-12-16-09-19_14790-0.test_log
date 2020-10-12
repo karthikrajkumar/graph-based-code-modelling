@@ -1,0 +1,90 @@
+Groundtruth: args [ 0 ]
+  @1 Prob. 0.926: args [ 0 ]
+  @2 Prob. 0.018: args . IndexOf ( '-' )
+  @3 Prob. 0.013: args [ 1 ]
+  @4 Prob. 0.004: args [ args ]
+  @5 Prob. 0.001: args . StartsWith ( 0 )
+Groundtruth: intVar + classVar
+  @1 Prob. 0.908: intVar + classVar
+  @2 Prob. 0.018: intVar . IndexOf ( '-' , 2 , 43 )
+  @3 Prob. 0.009: intVar + 4
+  @4 Prob. 0.007: intVar . IndexOf ( '-' , 2 , classVar )
+  @5 Prob. 0.005: intVar . IndexOf ( classVar , 2 , 43 )
+Groundtruth: foo . StartsWith ( "foobar" )
+  @1 Prob. 0.871: foo . StartsWith ( "foobar" )
+  @2 Prob. 0.018: foo . StartsWith ( '-' )
+  @3 Prob. 0.014: foo . StartsWith ( 0 )
+  @4 Prob. 0.014: foo . StartsWith ( %UNK% )
+  @5 Prob. 0.004: foo . StartsWith ( 1 )
+Groundtruth: foo . IndexOf ( '-' )
+  @1 Prob. 0.820: foo . IndexOf ( '-' )
+  @2 Prob. 0.068: foo . IndexOf ( '-' , 2 , 43 )
+  @3 Prob. 0.015: foo . IndexOf ( "foobar" )
+  @4 Prob. 0.010: foo [ 0 ]
+  @5 Prob. 0.008: foo . IndexOf ( baz )
+Groundtruth: foo . IndexOf ( '-' , 2 , 43 )
+  @1 Prob. 0.777: foo . IndexOf ( '-' , 2 , 43 )
+  @2 Prob. 0.045: foo . IndexOf ( '-' )
+  @3 Prob. 0.022: foo + 4
+  @4 Prob. 0.011: foo + baz
+  @5 Prob. 0.008: foo . IndexOf ( baz , 2 , 43 )
+Groundtruth: arr [ 1 ]
+  @1 Prob. 0.930: arr [ 1 ]
+  @2 Prob. 0.024: arr [ i ]
+  @3 Prob. 0.006: arr [ 0 ]
+  @4 Prob. 0.004: i [ 1 ]
+  @5 Prob. 0.001: arr . StartsWith ( 1 )
+Groundtruth: j > classVar2
+  @1 Prob. 0.959: j > classVar2
+  @2 Prob. 0.013: j > 4
+  @3 Prob. 0.012: -- j
+  @4 Prob. 0.005: j > - classVar2
+  @5 Prob. 0.001: j > classVar2 * classVar2
+Groundtruth: -- j
+  @1 Prob. 0.943: -- j
+  @2 Prob. 0.028: j > classVar2
+  @3 Prob. 0.007: j ++
+  @4 Prob. 0.003: j ? 1 : classVar2
+  @5 Prob. 0.002: -- j * classVar2
+Groundtruth: iarr [ j ] * - 1 + 4
+  @1 Prob. 0.607: iarr [ j ] * - 1 + 4
+  @2 Prob. 0.023: iarr [ j ] * j + 4
+  @3 Prob. 0.016: iarr [ j ] * - 1 + - 1
+  @4 Prob. 0.016: iarr [ j ] * 4 + 4
+  @5 Prob. 0.010: iarr [ j ] * - 1 + j
+Groundtruth: ! b
+  @1 Prob. 0.942: ! b
+  @2 Prob. 0.016: b ++
+  @3 Prob. 0.004: ! 4
+  @4 Prob. 0.002: b + j
+  @5 Prob. 0.002: b [ j ] * - 1 + 4
+Groundtruth: j > 4
+  @1 Prob. 0.916: j > 4
+  @2 Prob. 0.012: j > b
+  @3 Prob. 0.011: 4 > 4
+  @4 Prob. 0.009: j > iarr
+  @5 Prob. 0.003: j > - b
+Groundtruth: 4 < classVar2
+  @1 Prob. 0.849: 4 < classVar2
+  @2 Prob. 0.031: 4 ++
+  @3 Prob. 0.019: 4 < 4
+  @4 Prob. 0.015: 4 > 4
+  @5 Prob. 0.009: classVar2 < b
+Groundtruth: classVar2 ++
+  @1 Prob. 0.960: classVar2 ++
+  @2 Prob. 0.009: ! classVar2
+  @3 Prob. 0.005: classVar2 < b
+  @4 Prob. 0.004: -- classVar2
+  @5 Prob. 0.004: classVar2 < j
+Groundtruth: b ? 2 : i
+  @1 Prob. 0.531: b ? 2 : i
+  @2 Prob. 0.405: b ? 2 : - i
+  @3 Prob. 0.014: b ? 2 : 4
+  @4 Prob. 0.005: b ? 2 : - - i
+  @5 Prob. 0.002: b ? 2 : - - 1
+Groundtruth: b ? 1 : - i
+  @1 Prob. 0.511: b ? 1 : i
+  @2 Prob. 0.416: b ? 1 : - i
+  @3 Prob. 0.015: b ? 1 : 4
+  @4 Prob. 0.005: b ? 1 : - - 1
+  @5 Prob. 0.005: b ? 1 : - 4

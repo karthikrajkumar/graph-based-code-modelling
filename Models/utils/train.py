@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """
 Usage:
     train.py [options] SAVE_FOLDER TRAIN_DATA_PATH VALID_DATA_PATH

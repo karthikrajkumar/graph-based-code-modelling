@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """
 Usage:
     test.py [options] MODEL_PATH TEST_DATA_PATH OUTPUT_FOLDER

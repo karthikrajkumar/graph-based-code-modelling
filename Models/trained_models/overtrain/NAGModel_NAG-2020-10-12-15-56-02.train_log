@@ -1,0 +1,1532 @@
+Starting training run NAG-2020-10-12-15-56-02 of model NAGModel with following hypers:
+{"optimizer": "Adam", "seed": 0, "dropout_keep_rate": 0.9, "learning_rate": 0.00025, "learning_rate_decay": 0.98, "momentum": 0.85, "gradient_clip": 1, "max_epochs": 500, "patience": 5, "max_num_cg_nodes_in_batch": 100000, "excluded_cg_edge_types": [], "cg_add_subtoken_nodes": true, "cg_node_label_embedding_style": "Token", "cg_node_label_vocab_size": 10000, "cg_node_label_char_length": 16, "cg_node_label_embedding_size": 32, "cg_node_type_vocab_size": 54, "cg_node_type_max_num": 10, "cg_node_type_embedding_size": 32, "cg_ggnn_layer_timesteps": [3, 1, 3, 1], "cg_ggnn_residual_connections": {"1": [0], "3": [0, 1]}, "cg_ggnn_hidden_size": 64, "cg_ggnn_use_edge_bias": false, "cg_ggnn_use_edge_msg_avg_aggregation": false, "cg_ggnn_use_propagation_attention": false, "cg_ggnn_graph_rnn_activation": "tanh", "cg_ggnn_graph_rnn_cell": "GRU", "eg_token_vocab_size": 100, "eg_literal_vocab_size": 10, "eg_max_variable_choices": 10, "eg_propagation_substeps": 50, "eg_hidden_size": 64, "eg_edge_label_size": 16, "exclude_edge_types": [], "eg_graph_rnn_cell": "GRU", "eg_graph_rnn_activation": "tanh", "eg_use_edge_bias": false, "eg_use_vars_for_production_choice": true, "eg_update_last_variable_use_representation": true, "eg_use_literal_copying": true, "eg_use_context_attention": true, "eg_max_context_tokens": 500, "run_id": "NAG-2020-10-12-15-56-02"}
+==== Epoch 0 ====
+  Epoch 0 (train) took 9.65s [processed 1 samples/second]
+ Training Loss: 9.537895
+  Epoch 0 (valid) took 2.38s [processed 6 samples/second]
+ Validation Loss: 8.626099
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 1 ====
+  Epoch 1 (train) took 0.67s [processed 22 samples/second]
+ Training Loss: 8.608039
+  Epoch 1 (valid) took 0.20s [processed 73 samples/second]
+ Validation Loss: 8.125262
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 2 ====
+  Epoch 2 (train) took 0.59s [processed 25 samples/second]
+ Training Loss: 8.095257
+  Epoch 2 (valid) took 0.19s [processed 80 samples/second]
+ Validation Loss: 7.661982
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 3 ====
+  Epoch 3 (train) took 0.63s [processed 23 samples/second]
+ Training Loss: 7.661383
+  Epoch 3 (valid) took 0.21s [processed 70 samples/second]
+ Validation Loss: 7.263470
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 4 ====
+  Epoch 4 (train) took 0.51s [processed 29 samples/second]
+ Training Loss: 7.381437
+  Epoch 4 (valid) took 0.22s [processed 68 samples/second]
+ Validation Loss: 6.932508
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 5 ====
+  Epoch 5 (train) took 0.54s [processed 27 samples/second]
+ Training Loss: 6.989313
+  Epoch 5 (valid) took 0.19s [processed 79 samples/second]
+ Validation Loss: 6.654241
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 6 ====
+  Epoch 6 (train) took 0.54s [processed 27 samples/second]
+ Training Loss: 6.779755
+  Epoch 6 (valid) took 0.19s [processed 79 samples/second]
+ Validation Loss: 6.404758
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 7 ====
+  Epoch 7 (train) took 0.51s [processed 29 samples/second]
+ Training Loss: 6.513432
+  Epoch 7 (valid) took 0.20s [processed 74 samples/second]
+ Validation Loss: 6.170221
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 8 ====
+  Epoch 8 (train) took 0.63s [processed 23 samples/second]
+ Training Loss: 6.257344
+  Epoch 8 (valid) took 0.19s [processed 78 samples/second]
+ Validation Loss: 5.945957
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 9 ====
+  Epoch 9 (train) took 0.51s [processed 29 samples/second]
+ Training Loss: 5.983136
+  Epoch 9 (valid) took 0.20s [processed 75 samples/second]
+ Validation Loss: 5.731487
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 10 ====
+  Epoch 10 (train) took 0.47s [processed 32 samples/second]
+ Training Loss: 5.827671
+  Epoch 10 (valid) took 0.22s [processed 69 samples/second]
+ Validation Loss: 5.529760
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 11 ====
+  Epoch 11 (train) took 1.15s [processed 13 samples/second]
+ Training Loss: 5.644780
+  Epoch 11 (valid) took 0.43s [processed 35 samples/second]
+ Validation Loss: 5.343362
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 12 ====
+  Epoch 12 (train) took 0.99s [processed 15 samples/second]
+ Training Loss: 5.401941
+  Epoch 12 (valid) took 0.36s [processed 42 samples/second]
+ Validation Loss: 5.172177
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 13 ====
+  Epoch 13 (train) took 0.98s [processed 15 samples/second]
+ Training Loss: 5.236778
+  Epoch 13 (valid) took 0.34s [processed 44 samples/second]
+ Validation Loss: 5.015916
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 14 ====
+  Epoch 14 (train) took 0.70s [processed 21 samples/second]
+ Training Loss: 5.040152
+  Epoch 14 (valid) took 0.30s [processed 50 samples/second]
+ Validation Loss: 4.866366
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 15 ====
+  Epoch 15 (train) took 0.78s [processed 19 samples/second]
+ Training Loss: 5.044867
+  Epoch 15 (valid) took 0.30s [processed 50 samples/second]
+ Validation Loss: 4.719838
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 16 ====
+  Epoch 16 (train) took 0.65s [processed 22 samples/second]
+ Training Loss: 4.775000
+  Epoch 16 (valid) took 0.30s [processed 50 samples/second]
+ Validation Loss: 4.575113
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 17 ====
+  Epoch 17 (train) took 0.65s [processed 23 samples/second]
+ Training Loss: 4.765151
+  Epoch 17 (valid) took 0.29s [processed 51 samples/second]
+ Validation Loss: 4.434138
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 18 ====
+  Epoch 18 (train) took 0.68s [processed 21 samples/second]
+ Training Loss: 4.487535
+  Epoch 18 (valid) took 0.30s [processed 49 samples/second]
+ Validation Loss: 4.297413
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 19 ====
+  Epoch 19 (train) took 0.75s [processed 19 samples/second]
+ Training Loss: 4.446834
+  Epoch 19 (valid) took 0.30s [processed 49 samples/second]
+ Validation Loss: 4.164968
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 20 ====
+  Epoch 20 (train) took 0.64s [processed 23 samples/second]
+ Training Loss: 4.351866
+  Epoch 20 (valid) took 0.25s [processed 60 samples/second]
+ Validation Loss: 4.035389
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 21 ====
+  Epoch 21 (train) took 0.62s [processed 24 samples/second]
+ Training Loss: 4.283096
+  Epoch 21 (valid) took 0.27s [processed 55 samples/second]
+ Validation Loss: 3.914060
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 22 ====
+  Epoch 22 (train) took 0.57s [processed 26 samples/second]
+ Training Loss: 3.870760
+  Epoch 22 (valid) took 0.25s [processed 59 samples/second]
+ Validation Loss: 3.807735
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 23 ====
+  Epoch 23 (train) took 0.56s [processed 26 samples/second]
+ Training Loss: 3.884718
+  Epoch 23 (valid) took 0.25s [processed 60 samples/second]
+ Validation Loss: 3.713703
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 24 ====
+  Epoch 24 (train) took 0.52s [processed 28 samples/second]
+ Training Loss: 3.766113
+  Epoch 24 (valid) took 0.23s [processed 65 samples/second]
+ Validation Loss: 3.624370
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 25 ====
+  Epoch 25 (train) took 0.58s [processed 25 samples/second]
+ Training Loss: 3.651106
+  Epoch 25 (valid) took 0.23s [processed 64 samples/second]
+ Validation Loss: 3.533619
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 26 ====
+  Epoch 26 (train) took 0.52s [processed 28 samples/second]
+ Training Loss: 3.586846
+  Epoch 26 (valid) took 0.24s [processed 62 samples/second]
+ Validation Loss: 3.442338
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 27 ====
+  Epoch 27 (train) took 0.51s [processed 29 samples/second]
+ Training Loss: 3.482829
+  Epoch 27 (valid) took 0.24s [processed 62 samples/second]
+ Validation Loss: 3.355321
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 28 ====
+  Epoch 28 (train) took 0.61s [processed 24 samples/second]
+ Training Loss: 3.464322
+  Epoch 28 (valid) took 0.23s [processed 63 samples/second]
+ Validation Loss: 3.276168
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 29 ====
+  Epoch 29 (train) took 0.54s [processed 27 samples/second]
+ Training Loss: 3.300689
+  Epoch 29 (valid) took 0.21s [processed 70 samples/second]
+ Validation Loss: 3.202887
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 30 ====
+  Epoch 30 (train) took 0.57s [processed 26 samples/second]
+ Training Loss: 3.231100
+  Epoch 30 (valid) took 0.23s [processed 64 samples/second]
+ Validation Loss: 3.136363
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 31 ====
+  Epoch 31 (train) took 0.54s [processed 27 samples/second]
+ Training Loss: 3.289082
+  Epoch 31 (valid) took 0.23s [processed 65 samples/second]
+ Validation Loss: 3.071556
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 32 ====
+  Epoch 32 (train) took 0.53s [processed 28 samples/second]
+ Training Loss: 3.136537
+  Epoch 32 (valid) took 0.20s [processed 73 samples/second]
+ Validation Loss: 3.005001
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 33 ====
+  Epoch 33 (train) took 0.50s [processed 29 samples/second]
+ Training Loss: 3.097927
+  Epoch 33 (valid) took 0.21s [processed 72 samples/second]
+ Validation Loss: 2.941631
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 34 ====
+  Epoch 34 (train) took 0.52s [processed 28 samples/second]
+ Training Loss: 3.049060
+  Epoch 34 (valid) took 0.23s [processed 65 samples/second]
+ Validation Loss: 2.881974
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 35 ====
+  Epoch 35 (train) took 0.64s [processed 23 samples/second]
+ Training Loss: 2.956147
+  Epoch 35 (valid) took 0.21s [processed 70 samples/second]
+ Validation Loss: 2.818252
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 36 ====
+  Epoch 36 (train) took 0.50s [processed 30 samples/second]
+ Training Loss: 2.942301
+  Epoch 36 (valid) took 0.21s [processed 72 samples/second]
+ Validation Loss: 2.754812
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 37 ====
+  Epoch 37 (train) took 0.49s [processed 30 samples/second]
+ Training Loss: 2.872422
+  Epoch 37 (valid) took 0.20s [processed 76 samples/second]
+ Validation Loss: 2.698313
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 38 ====
+  Epoch 38 (train) took 0.52s [processed 28 samples/second]
+ Training Loss: 2.882379
+  Epoch 38 (valid) took 0.20s [processed 74 samples/second]
+ Validation Loss: 2.651226
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 39 ====
+  Epoch 39 (train) took 0.56s [processed 26 samples/second]
+ Training Loss: 2.711291
+  Epoch 39 (valid) took 0.19s [processed 79 samples/second]
+ Validation Loss: 2.608242
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 40 ====
+  Epoch 40 (train) took 0.50s [processed 29 samples/second]
+ Training Loss: 2.741363
+  Epoch 40 (valid) took 0.21s [processed 71 samples/second]
+ Validation Loss: 2.565631
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 41 ====
+  Epoch 41 (train) took 0.48s [processed 31 samples/second]
+ Training Loss: 2.656132
+  Epoch 41 (valid) took 0.19s [processed 76 samples/second]
+ Validation Loss: 2.519459
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 42 ====
+  Epoch 42 (train) took 0.57s [processed 26 samples/second]
+ Training Loss: 2.581105
+  Epoch 42 (valid) took 0.20s [processed 74 samples/second]
+ Validation Loss: 2.471234
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 43 ====
+  Epoch 43 (train) took 0.48s [processed 31 samples/second]
+ Training Loss: 2.559036
+  Epoch 43 (valid) took 0.19s [processed 78 samples/second]
+ Validation Loss: 2.422004
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 44 ====
+  Epoch 44 (train) took 0.44s [processed 34 samples/second]
+ Training Loss: 2.442986
+  Epoch 44 (valid) took 0.20s [processed 76 samples/second]
+ Validation Loss: 2.372134
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 45 ====
+  Epoch 45 (train) took 0.49s [processed 30 samples/second]
+ Training Loss: 2.554900
+  Epoch 45 (valid) took 0.19s [processed 80 samples/second]
+ Validation Loss: 2.324640
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 46 ====
+  Epoch 46 (train) took 0.45s [processed 33 samples/second]
+ Training Loss: 2.371704
+  Epoch 46 (valid) took 0.19s [processed 78 samples/second]
+ Validation Loss: 2.282986
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 47 ====
+  Epoch 47 (train) took 0.56s [processed 26 samples/second]
+ Training Loss: 2.354324
+  Epoch 47 (valid) took 0.27s [processed 56 samples/second]
+ Validation Loss: 2.243179
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 48 ====
+  Epoch 48 (train) took 0.53s [processed 28 samples/second]
+ Training Loss: 2.312983
+  Epoch 48 (valid) took 0.19s [processed 80 samples/second]
+ Validation Loss: 2.204356
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 49 ====
+  Epoch 49 (train) took 0.47s [processed 31 samples/second]
+ Training Loss: 2.334835
+  Epoch 49 (valid) took 0.20s [processed 74 samples/second]
+ Validation Loss: 2.166306
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 50 ====
+  Epoch 50 (train) took 0.47s [processed 31 samples/second]
+ Training Loss: 2.232313
+  Epoch 50 (valid) took 0.19s [processed 78 samples/second]
+ Validation Loss: 2.130453
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 51 ====
+  Epoch 51 (train) took 0.48s [processed 30 samples/second]
+ Training Loss: 2.246641
+  Epoch 51 (valid) took 0.19s [processed 77 samples/second]
+ Validation Loss: 2.095645
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 52 ====
+  Epoch 52 (train) took 0.50s [processed 30 samples/second]
+ Training Loss: 2.206167
+  Epoch 52 (valid) took 0.20s [processed 74 samples/second]
+ Validation Loss: 2.060585
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 53 ====
+  Epoch 53 (train) took 0.50s [processed 30 samples/second]
+ Training Loss: 2.068642
+  Epoch 53 (valid) took 0.19s [processed 78 samples/second]
+ Validation Loss: 2.024122
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 54 ====
+  Epoch 54 (train) took 0.44s [processed 34 samples/second]
+ Training Loss: 2.071708
+  Epoch 54 (valid) took 0.20s [processed 74 samples/second]
+ Validation Loss: 1.984550
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 55 ====
+  Epoch 55 (train) took 0.45s [processed 33 samples/second]
+ Training Loss: 2.023038
+  Epoch 55 (valid) took 0.19s [processed 78 samples/second]
+ Validation Loss: 1.944548
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 56 ====
+  Epoch 56 (train) took 0.47s [processed 31 samples/second]
+ Training Loss: 1.965595
+  Epoch 56 (valid) took 0.22s [processed 68 samples/second]
+ Validation Loss: 1.908786
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 57 ====
+  Epoch 57 (train) took 0.52s [processed 28 samples/second]
+ Training Loss: 1.924546
+  Epoch 57 (valid) took 0.21s [processed 72 samples/second]
+ Validation Loss: 1.880721
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 58 ====
+  Epoch 58 (train) took 0.49s [processed 30 samples/second]
+ Training Loss: 2.020509
+  Epoch 58 (valid) took 0.19s [processed 79 samples/second]
+ Validation Loss: 1.855578
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 59 ====
+  Epoch 59 (train) took 0.46s [processed 32 samples/second]
+ Training Loss: 1.865814
+  Epoch 59 (valid) took 0.22s [processed 68 samples/second]
+ Validation Loss: 1.832594
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 60 ====
+  Epoch 60 (train) took 0.49s [processed 30 samples/second]
+ Training Loss: 1.889659
+  Epoch 60 (valid) took 0.21s [processed 72 samples/second]
+ Validation Loss: 1.802915
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 61 ====
+  Epoch 61 (train) took 0.44s [processed 33 samples/second]
+ Training Loss: 1.952943
+  Epoch 61 (valid) took 0.24s [processed 62 samples/second]
+ Validation Loss: 1.763846
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 62 ====
+  Epoch 62 (train) took 0.47s [processed 31 samples/second]
+ Training Loss: 1.932988
+  Epoch 62 (valid) took 0.18s [processed 81 samples/second]
+ Validation Loss: 1.725614
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 63 ====
+  Epoch 63 (train) took 0.46s [processed 32 samples/second]
+ Training Loss: 1.750661
+  Epoch 63 (valid) took 0.20s [processed 76 samples/second]
+ Validation Loss: 1.687312
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 64 ====
+  Epoch 64 (train) took 0.48s [processed 31 samples/second]
+ Training Loss: 1.781691
+  Epoch 64 (valid) took 0.19s [processed 78 samples/second]
+ Validation Loss: 1.656412
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 65 ====
+  Epoch 65 (train) took 0.51s [processed 29 samples/second]
+ Training Loss: 1.734629
+  Epoch 65 (valid) took 0.20s [processed 75 samples/second]
+ Validation Loss: 1.630630
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 66 ====
+  Epoch 66 (train) took 0.46s [processed 32 samples/second]
+ Training Loss: 1.663148
+  Epoch 66 (valid) took 0.24s [processed 61 samples/second]
+ Validation Loss: 1.613759
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 67 ====
+  Epoch 67 (train) took 0.53s [processed 28 samples/second]
+ Training Loss: 1.706107
+  Epoch 67 (valid) took 0.20s [processed 75 samples/second]
+ Validation Loss: 1.597542
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 68 ====
+  Epoch 68 (train) took 0.47s [processed 32 samples/second]
+ Training Loss: 1.664977
+  Epoch 68 (valid) took 0.21s [processed 71 samples/second]
+ Validation Loss: 1.570975
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 69 ====
+  Epoch 69 (train) took 0.47s [processed 32 samples/second]
+ Training Loss: 1.660541
+  Epoch 69 (valid) took 0.21s [processed 71 samples/second]
+ Validation Loss: 1.545260
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 70 ====
+  Epoch 70 (train) took 0.59s [processed 25 samples/second]
+ Training Loss: 1.578865
+  Epoch 70 (valid) took 0.20s [processed 74 samples/second]
+ Validation Loss: 1.508559
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 71 ====
+  Epoch 71 (train) took 0.51s [processed 29 samples/second]
+ Training Loss: 1.539205
+  Epoch 71 (valid) took 0.22s [processed 69 samples/second]
+ Validation Loss: 1.472986
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 72 ====
+  Epoch 72 (train) took 0.52s [processed 28 samples/second]
+ Training Loss: 1.533186
+  Epoch 72 (valid) took 0.23s [processed 65 samples/second]
+ Validation Loss: 1.441212
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 73 ====
+  Epoch 73 (train) took 0.50s [processed 30 samples/second]
+ Training Loss: 1.517948
+  Epoch 73 (valid) took 0.21s [processed 72 samples/second]
+ Validation Loss: 1.412375
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 74 ====
+  Epoch 74 (train) took 0.52s [processed 28 samples/second]
+ Training Loss: 1.453680
+  Epoch 74 (valid) took 0.24s [processed 62 samples/second]
+ Validation Loss: 1.383456
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 75 ====
+  Epoch 75 (train) took 0.58s [processed 25 samples/second]
+ Training Loss: 1.510700
+  Epoch 75 (valid) took 0.26s [processed 57 samples/second]
+ Validation Loss: 1.358859
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 76 ====
+  Epoch 76 (train) took 0.59s [processed 25 samples/second]
+ Training Loss: 1.423944
+  Epoch 76 (valid) took 0.27s [processed 56 samples/second]
+ Validation Loss: 1.344355
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 77 ====
+  Epoch 77 (train) took 0.60s [processed 24 samples/second]
+ Training Loss: 1.365566
+  Epoch 77 (valid) took 0.27s [processed 56 samples/second]
+ Validation Loss: 1.337932
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 78 ====
+  Epoch 78 (train) took 0.64s [processed 23 samples/second]
+ Training Loss: 1.399143
+  Epoch 78 (valid) took 0.23s [processed 66 samples/second]
+ Validation Loss: 1.318164
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 79 ====
+  Epoch 79 (train) took 0.59s [processed 25 samples/second]
+ Training Loss: 1.408759
+  Epoch 79 (valid) took 0.26s [processed 58 samples/second]
+ Validation Loss: 1.281600
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 80 ====
+  Epoch 80 (train) took 0.67s [processed 22 samples/second]
+ Training Loss: 1.368618
+  Epoch 80 (valid) took 0.28s [processed 54 samples/second]
+ Validation Loss: 1.236963
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 81 ====
+  Epoch 81 (train) took 0.63s [processed 23 samples/second]
+ Training Loss: 1.374400
+  Epoch 81 (valid) took 0.30s [processed 50 samples/second]
+ Validation Loss: 1.208192
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 82 ====
+  Epoch 82 (train) took 0.71s [processed 21 samples/second]
+ Training Loss: 1.320109
+  Epoch 82 (valid) took 0.29s [processed 50 samples/second]
+ Validation Loss: 1.196588
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 83 ====
+  Epoch 83 (train) took 0.70s [processed 21 samples/second]
+ Training Loss: 1.251950
+  Epoch 83 (valid) took 0.31s [processed 47 samples/second]
+ Validation Loss: 1.182719
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 84 ====
+  Epoch 84 (train) took 0.63s [processed 23 samples/second]
+ Training Loss: 1.288435
+  Epoch 84 (valid) took 0.29s [processed 52 samples/second]
+ Validation Loss: 1.158285
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 85 ====
+  Epoch 85 (train) took 0.71s [processed 21 samples/second]
+ Training Loss: 1.211480
+  Epoch 85 (valid) took 0.29s [processed 52 samples/second]
+ Validation Loss: 1.129500
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 86 ====
+  Epoch 86 (train) took 0.71s [processed 21 samples/second]
+ Training Loss: 1.136133
+  Epoch 86 (valid) took 0.31s [processed 47 samples/second]
+ Validation Loss: 1.100336
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 87 ====
+  Epoch 87 (train) took 0.81s [processed 18 samples/second]
+ Training Loss: 1.170843
+  Epoch 87 (valid) took 0.31s [processed 47 samples/second]
+ Validation Loss: 1.077094
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 88 ====
+  Epoch 88 (train) took 0.90s [processed 16 samples/second]
+ Training Loss: 1.199302
+  Epoch 88 (valid) took 0.42s [processed 35 samples/second]
+ Validation Loss: 1.056540
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 89 ====
+  Epoch 89 (train) took 0.84s [processed 17 samples/second]
+ Training Loss: 1.188299
+  Epoch 89 (valid) took 0.50s [processed 29 samples/second]
+ Validation Loss: 1.037843
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 90 ====
+  Epoch 90 (train) took 1.74s [processed 8 samples/second]
+ Training Loss: 1.217063
+  Epoch 90 (valid) took 0.86s [processed 17 samples/second]
+ Validation Loss: 1.019787
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 91 ====
+  Epoch 91 (train) took 1.27s [processed 11 samples/second]
+ Training Loss: 1.279429
+  Epoch 91 (valid) took 0.61s [processed 24 samples/second]
+ Validation Loss: 1.003031
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 92 ====
+  Epoch 92 (train) took 1.14s [processed 13 samples/second]
+ Training Loss: 1.097270
+  Epoch 92 (valid) took 0.51s [processed 29 samples/second]
+ Validation Loss: 0.984930
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 93 ====
+  Epoch 93 (train) took 1.21s [processed 12 samples/second]
+ Training Loss: 1.060931
+  Epoch 93 (valid) took 0.48s [processed 30 samples/second]
+ Validation Loss: 0.964857
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 94 ====
+  Epoch 94 (train) took 1.04s [processed 14 samples/second]
+ Training Loss: 1.085389
+  Epoch 94 (valid) took 0.55s [processed 27 samples/second]
+ Validation Loss: 0.948590
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 95 ====
+  Epoch 95 (train) took 1.08s [processed 13 samples/second]
+ Training Loss: 1.057493
+  Epoch 95 (valid) took 0.62s [processed 24 samples/second]
+ Validation Loss: 0.939990
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 96 ====
+  Epoch 96 (train) took 1.42s [processed 10 samples/second]
+ Training Loss: 1.038894
+  Epoch 96 (valid) took 0.77s [processed 19 samples/second]
+ Validation Loss: 0.925555
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 97 ====
+  Epoch 97 (train) took 1.72s [processed 8 samples/second]
+ Training Loss: 1.007618
+  Epoch 97 (valid) took 0.63s [processed 23 samples/second]
+ Validation Loss: 0.902651
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 98 ====
+  Epoch 98 (train) took 2.35s [processed 6 samples/second]
+ Training Loss: 1.054832
+  Epoch 98 (valid) took 0.82s [processed 18 samples/second]
+ Validation Loss: 0.876221
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 99 ====
+  Epoch 99 (train) took 1.37s [processed 10 samples/second]
+ Training Loss: 1.043861
+  Epoch 99 (valid) took 0.63s [processed 23 samples/second]
+ Validation Loss: 0.855499
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 100 ====
+  Epoch 100 (train) took 1.38s [processed 10 samples/second]
+ Training Loss: 0.986151
+  Epoch 100 (valid) took 0.49s [processed 30 samples/second]
+ Validation Loss: 0.841623
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 101 ====
+  Epoch 101 (train) took 1.03s [processed 14 samples/second]
+ Training Loss: 0.896941
+  Epoch 101 (valid) took 0.42s [processed 35 samples/second]
+ Validation Loss: 0.840106
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 102 ====
+  Epoch 102 (train) took 1.04s [processed 14 samples/second]
+ Training Loss: 0.918034
+  Epoch 102 (valid) took 0.42s [processed 35 samples/second]
+ Validation Loss: 0.836157
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 103 ====
+  Epoch 103 (train) took 0.85s [processed 17 samples/second]
+ Training Loss: 0.909561
+  Epoch 103 (valid) took 0.35s [processed 43 samples/second]
+ Validation Loss: 0.829674
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 104 ====
+  Epoch 104 (train) took 0.72s [processed 20 samples/second]
+ Training Loss: 0.909581
+  Epoch 104 (valid) took 0.34s [processed 43 samples/second]
+ Validation Loss: 0.801813
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 105 ====
+  Epoch 105 (train) took 0.84s [processed 17 samples/second]
+ Training Loss: 0.893570
+  Epoch 105 (valid) took 0.47s [processed 32 samples/second]
+ Validation Loss: 0.771074
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 106 ====
+  Epoch 106 (train) took 0.74s [processed 20 samples/second]
+ Training Loss: 0.809828
+  Epoch 106 (valid) took 0.36s [processed 41 samples/second]
+ Validation Loss: 0.741814
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 107 ====
+  Epoch 107 (train) took 0.86s [processed 17 samples/second]
+ Training Loss: 0.858232
+  Epoch 107 (valid) took 0.49s [processed 30 samples/second]
+ Validation Loss: 0.720552
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 108 ====
+  Epoch 108 (train) took 1.22s [processed 12 samples/second]
+ Training Loss: 0.819459
+  Epoch 108 (valid) took 0.56s [processed 26 samples/second]
+ Validation Loss: 0.717669
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 109 ====
+  Epoch 109 (train) took 1.66s [processed 9 samples/second]
+ Training Loss: 0.781130
+  Epoch 109 (valid) took 0.65s [processed 23 samples/second]
+ Validation Loss: 0.717041
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 110 ====
+  Epoch 110 (train) took 1.90s [processed 7 samples/second]
+ Training Loss: 0.915883
+  Epoch 110 (valid) took 0.77s [processed 19 samples/second]
+ Validation Loss: 0.704805
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 111 ====
+  Epoch 111 (train) took 1.01s [processed 14 samples/second]
+ Training Loss: 0.831948
+  Epoch 111 (valid) took 0.43s [processed 35 samples/second]
+ Validation Loss: 0.682604
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 112 ====
+  Epoch 112 (train) took 1.01s [processed 14 samples/second]
+ Training Loss: 0.828959
+  Epoch 112 (valid) took 0.39s [processed 38 samples/second]
+ Validation Loss: 0.665644
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 113 ====
+  Epoch 113 (train) took 0.92s [processed 16 samples/second]
+ Training Loss: 0.788756
+  Epoch 113 (valid) took 0.43s [processed 35 samples/second]
+ Validation Loss: 0.644809
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 114 ====
+  Epoch 114 (train) took 0.79s [processed 18 samples/second]
+ Training Loss: 0.703368
+  Epoch 114 (valid) took 0.36s [processed 41 samples/second]
+ Validation Loss: 0.626067
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 115 ====
+  Epoch 115 (train) took 0.82s [processed 18 samples/second]
+ Training Loss: 0.746648
+  Epoch 115 (valid) took 0.46s [processed 32 samples/second]
+ Validation Loss: 0.618070
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 116 ====
+  Epoch 116 (train) took 0.91s [processed 16 samples/second]
+ Training Loss: 0.771216
+  Epoch 116 (valid) took 0.73s [processed 20 samples/second]
+ Validation Loss: 0.611950
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 117 ====
+  Epoch 117 (train) took 0.82s [processed 18 samples/second]
+ Training Loss: 0.701555
+  Epoch 117 (valid) took 0.36s [processed 41 samples/second]
+ Validation Loss: 0.603864
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 118 ====
+  Epoch 118 (train) took 0.87s [processed 17 samples/second]
+ Training Loss: 0.704140
+  Epoch 118 (valid) took 0.37s [processed 40 samples/second]
+ Validation Loss: 0.591241
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 119 ====
+  Epoch 119 (train) took 0.84s [processed 17 samples/second]
+ Training Loss: 0.628016
+  Epoch 119 (valid) took 0.44s [processed 34 samples/second]
+ Validation Loss: 0.581235
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 120 ====
+  Epoch 120 (train) took 1.00s [processed 15 samples/second]
+ Training Loss: 0.698938
+  Epoch 120 (valid) took 0.41s [processed 36 samples/second]
+ Validation Loss: 0.569153
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 121 ====
+  Epoch 121 (train) took 1.00s [processed 15 samples/second]
+ Training Loss: 0.667499
+  Epoch 121 (valid) took 0.47s [processed 31 samples/second]
+ Validation Loss: 0.557911
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 122 ====
+  Epoch 122 (train) took 0.84s [processed 17 samples/second]
+ Training Loss: 0.626414
+  Epoch 122 (valid) took 0.31s [processed 47 samples/second]
+ Validation Loss: 0.548853
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 123 ====
+  Epoch 123 (train) took 0.64s [processed 23 samples/second]
+ Training Loss: 0.605576
+  Epoch 123 (valid) took 0.28s [processed 52 samples/second]
+ Validation Loss: 0.538392
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 124 ====
+  Epoch 124 (train) took 0.55s [processed 27 samples/second]
+ Training Loss: 0.607712
+  Epoch 124 (valid) took 0.23s [processed 64 samples/second]
+ Validation Loss: 0.526228
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 125 ====
+  Epoch 125 (train) took 0.57s [processed 26 samples/second]
+ Training Loss: 0.610964
+  Epoch 125 (valid) took 0.28s [processed 53 samples/second]
+ Validation Loss: 0.512138
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 126 ====
+  Epoch 126 (train) took 0.59s [processed 25 samples/second]
+ Training Loss: 0.577957
+  Epoch 126 (valid) took 0.22s [processed 67 samples/second]
+ Validation Loss: 0.496038
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 127 ====
+  Epoch 127 (train) took 0.54s [processed 28 samples/second]
+ Training Loss: 0.560183
+  Epoch 127 (valid) took 0.22s [processed 68 samples/second]
+ Validation Loss: 0.489327
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 128 ====
+  Epoch 128 (train) took 0.51s [processed 29 samples/second]
+ Training Loss: 0.543333
+  Epoch 128 (valid) took 0.23s [processed 65 samples/second]
+ Validation Loss: 0.479550
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 129 ====
+  Epoch 129 (train) took 0.54s [processed 27 samples/second]
+ Training Loss: 0.529570
+  Epoch 129 (valid) took 0.23s [processed 65 samples/second]
+ Validation Loss: 0.472412
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 130 ====
+  Epoch 130 (train) took 0.55s [processed 27 samples/second]
+ Training Loss: 0.668586
+  Epoch 130 (valid) took 0.24s [processed 62 samples/second]
+ Validation Loss: 0.452758
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 131 ====
+  Epoch 131 (train) took 0.57s [processed 26 samples/second]
+ Training Loss: 0.561648
+  Epoch 131 (valid) took 0.24s [processed 61 samples/second]
+ Validation Loss: 0.436691
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 132 ====
+  Epoch 132 (train) took 0.59s [processed 25 samples/second]
+ Training Loss: 0.521341
+  Epoch 132 (valid) took 0.26s [processed 58 samples/second]
+ Validation Loss: 0.432080
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 133 ====
+  Epoch 133 (train) took 0.63s [processed 23 samples/second]
+ Training Loss: 0.484272
+  Epoch 133 (valid) took 0.29s [processed 52 samples/second]
+ Validation Loss: 0.427489
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 134 ====
+  Epoch 134 (train) took 0.69s [processed 21 samples/second]
+ Training Loss: 0.513193
+  Epoch 134 (valid) took 0.32s [processed 47 samples/second]
+ Validation Loss: 0.424674
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 135 ====
+  Epoch 135 (train) took 0.76s [processed 19 samples/second]
+ Training Loss: 0.484884
+  Epoch 135 (valid) took 0.31s [processed 47 samples/second]
+ Validation Loss: 0.409764
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 136 ====
+  Epoch 136 (train) took 0.65s [processed 23 samples/second]
+ Training Loss: 0.484728
+  Epoch 136 (valid) took 0.32s [processed 47 samples/second]
+ Validation Loss: 0.388235
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 137 ====
+  Epoch 137 (train) took 0.88s [processed 17 samples/second]
+ Training Loss: 0.453387
+  Epoch 137 (valid) took 0.37s [processed 40 samples/second]
+ Validation Loss: 0.373639
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 138 ====
+  Epoch 138 (train) took 0.74s [processed 20 samples/second]
+ Training Loss: 0.442372
+  Epoch 138 (valid) took 0.32s [processed 46 samples/second]
+ Validation Loss: 0.366165
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 139 ====
+  Epoch 139 (train) took 0.82s [processed 18 samples/second]
+ Training Loss: 0.445321
+  Epoch 139 (valid) took 0.29s [processed 50 samples/second]
+ Validation Loss: 0.361862
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 140 ====
+  Epoch 140 (train) took 0.77s [processed 19 samples/second]
+ Training Loss: 0.412826
+  Epoch 140 (valid) took 0.33s [processed 45 samples/second]
+ Validation Loss: 0.357072
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 141 ====
+  Epoch 141 (train) took 0.71s [processed 21 samples/second]
+ Training Loss: 0.428114
+  Epoch 141 (valid) took 0.32s [processed 46 samples/second]
+ Validation Loss: 0.352545
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 142 ====
+  Epoch 142 (train) took 0.72s [processed 20 samples/second]
+ Training Loss: 0.443442
+  Epoch 142 (valid) took 0.29s [processed 51 samples/second]
+ Validation Loss: 0.342442
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 143 ====
+  Epoch 143 (train) took 0.93s [processed 16 samples/second]
+ Training Loss: 0.413310
+  Epoch 143 (valid) took 0.34s [processed 44 samples/second]
+ Validation Loss: 0.328789
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 144 ====
+  Epoch 144 (train) took 0.75s [processed 20 samples/second]
+ Training Loss: 0.408270
+  Epoch 144 (valid) took 0.35s [processed 43 samples/second]
+ Validation Loss: 0.319547
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 145 ====
+  Epoch 145 (train) took 0.71s [processed 21 samples/second]
+ Training Loss: 0.367669
+  Epoch 145 (valid) took 0.24s [processed 62 samples/second]
+ Validation Loss: 0.314635
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 146 ====
+  Epoch 146 (train) took 0.54s [processed 27 samples/second]
+ Training Loss: 0.451558
+  Epoch 146 (valid) took 0.23s [processed 64 samples/second]
+ Validation Loss: 0.308977
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 147 ====
+  Epoch 147 (train) took 0.56s [processed 27 samples/second]
+ Training Loss: 0.359661
+  Epoch 147 (valid) took 0.41s [processed 36 samples/second]
+ Validation Loss: 0.301437
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 148 ====
+  Epoch 148 (train) took 0.52s [processed 28 samples/second]
+ Training Loss: 0.350761
+  Epoch 148 (valid) took 0.23s [processed 65 samples/second]
+ Validation Loss: 0.296171
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 149 ====
+  Epoch 149 (train) took 0.58s [processed 25 samples/second]
+ Training Loss: 0.362175
+  Epoch 149 (valid) took 0.27s [processed 55 samples/second]
+ Validation Loss: 0.293012
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 150 ====
+  Epoch 150 (train) took 0.51s [processed 29 samples/second]
+ Training Loss: 0.368615
+  Epoch 150 (valid) took 0.24s [processed 63 samples/second]
+ Validation Loss: 0.288374
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 151 ====
+  Epoch 151 (train) took 0.66s [processed 22 samples/second]
+ Training Loss: 0.454456
+  Epoch 151 (valid) took 0.41s [processed 36 samples/second]
+ Validation Loss: 0.281786
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 152 ====
+  Epoch 152 (train) took 0.61s [processed 24 samples/second]
+ Training Loss: 0.348723
+  Epoch 152 (valid) took 0.26s [processed 58 samples/second]
+ Validation Loss: 0.273275
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 153 ====
+  Epoch 153 (train) took 0.54s [processed 27 samples/second]
+ Training Loss: 0.352537
+  Epoch 153 (valid) took 0.24s [processed 63 samples/second]
+ Validation Loss: 0.267599
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 154 ====
+  Epoch 154 (train) took 0.52s [processed 28 samples/second]
+ Training Loss: 0.312950
+  Epoch 154 (valid) took 0.21s [processed 70 samples/second]
+ Validation Loss: 0.276602
+==== Epoch 155 ====
+  Epoch 155 (train) took 0.54s [processed 27 samples/second]
+ Training Loss: 0.354199
+  Epoch 155 (valid) took 0.22s [processed 67 samples/second]
+ Validation Loss: 0.287009
+==== Epoch 156 ====
+  Epoch 156 (train) took 0.49s [processed 30 samples/second]
+ Training Loss: 0.406071
+  Epoch 156 (valid) took 0.22s [processed 67 samples/second]
+ Validation Loss: 0.277732
+==== Epoch 157 ====
+  Epoch 157 (train) took 0.54s [processed 27 samples/second]
+ Training Loss: 0.302798
+  Epoch 157 (valid) took 0.22s [processed 69 samples/second]
+ Validation Loss: 0.268077
+==== Epoch 158 ====
+  Epoch 158 (train) took 0.62s [processed 24 samples/second]
+ Training Loss: 0.306909
+  Epoch 158 (valid) took 0.25s [processed 59 samples/second]
+ Validation Loss: 0.251282
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 159 ====
+  Epoch 159 (train) took 0.68s [processed 22 samples/second]
+ Training Loss: 0.278291
+  Epoch 159 (valid) took 0.26s [processed 56 samples/second]
+ Validation Loss: 0.236975
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 160 ====
+  Epoch 160 (train) took 0.58s [processed 25 samples/second]
+ Training Loss: 0.315292
+  Epoch 160 (valid) took 0.23s [processed 65 samples/second]
+ Validation Loss: 0.232778
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 161 ====
+  Epoch 161 (train) took 0.62s [processed 24 samples/second]
+ Training Loss: 0.272626
+  Epoch 161 (valid) took 0.30s [processed 49 samples/second]
+ Validation Loss: 0.240041
+==== Epoch 162 ====
+  Epoch 162 (train) took 0.57s [processed 26 samples/second]
+ Training Loss: 0.357448
+  Epoch 162 (valid) took 0.24s [processed 63 samples/second]
+ Validation Loss: 0.256089
+==== Epoch 163 ====
+  Epoch 163 (train) took 0.52s [processed 29 samples/second]
+ Training Loss: 0.282093
+  Epoch 163 (valid) took 0.23s [processed 64 samples/second]
+ Validation Loss: 0.254452
+==== Epoch 164 ====
+  Epoch 164 (train) took 0.57s [processed 26 samples/second]
+ Training Loss: 0.320795
+  Epoch 164 (valid) took 0.24s [processed 61 samples/second]
+ Validation Loss: 0.235812
+==== Epoch 165 ====
+  Epoch 165 (train) took 0.58s [processed 25 samples/second]
+ Training Loss: 0.301541
+  Epoch 165 (valid) took 0.22s [processed 68 samples/second]
+ Validation Loss: 0.218191
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 166 ====
+  Epoch 166 (train) took 0.61s [processed 24 samples/second]
+ Training Loss: 0.286539
+  Epoch 166 (valid) took 0.24s [processed 63 samples/second]
+ Validation Loss: 0.206070
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 167 ====
+  Epoch 167 (train) took 0.54s [processed 27 samples/second]
+ Training Loss: 0.253654
+  Epoch 167 (valid) took 0.24s [processed 62 samples/second]
+ Validation Loss: 0.204762
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 168 ====
+  Epoch 168 (train) took 0.62s [processed 24 samples/second]
+ Training Loss: 0.282552
+  Epoch 168 (valid) took 0.23s [processed 65 samples/second]
+ Validation Loss: 0.211411
+==== Epoch 169 ====
+  Epoch 169 (train) took 0.75s [processed 20 samples/second]
+ Training Loss: 0.329671
+  Epoch 169 (valid) took 0.25s [processed 59 samples/second]
+ Validation Loss: 0.212470
+==== Epoch 170 ====
+  Epoch 170 (train) took 0.72s [processed 20 samples/second]
+ Training Loss: 0.421930
+  Epoch 170 (valid) took 0.25s [processed 59 samples/second]
+ Validation Loss: 0.204073
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 171 ====
+  Epoch 171 (train) took 0.66s [processed 22 samples/second]
+ Training Loss: 0.388040
+  Epoch 171 (valid) took 0.28s [processed 53 samples/second]
+ Validation Loss: 0.195708
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 172 ====
+  Epoch 172 (train) took 0.57s [processed 26 samples/second]
+ Training Loss: 0.226649
+  Epoch 172 (valid) took 0.28s [processed 53 samples/second]
+ Validation Loss: 0.187751
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 173 ====
+  Epoch 173 (train) took 0.72s [processed 20 samples/second]
+ Training Loss: 0.213624
+  Epoch 173 (valid) took 0.31s [processed 48 samples/second]
+ Validation Loss: 0.182983
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 174 ====
+  Epoch 174 (train) took 0.59s [processed 25 samples/second]
+ Training Loss: 0.254629
+  Epoch 174 (valid) took 0.27s [processed 56 samples/second]
+ Validation Loss: 0.180030
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 175 ====
+  Epoch 175 (train) took 0.61s [processed 24 samples/second]
+ Training Loss: 0.413604
+  Epoch 175 (valid) took 0.27s [processed 55 samples/second]
+ Validation Loss: 0.177594
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 176 ====
+  Epoch 176 (train) took 0.58s [processed 25 samples/second]
+ Training Loss: 0.217773
+  Epoch 176 (valid) took 0.27s [processed 56 samples/second]
+ Validation Loss: 0.174761
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 177 ====
+  Epoch 177 (train) took 0.61s [processed 24 samples/second]
+ Training Loss: 0.215892
+  Epoch 177 (valid) took 0.25s [processed 60 samples/second]
+ Validation Loss: 0.172501
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 178 ====
+  Epoch 178 (train) took 0.56s [processed 26 samples/second]
+ Training Loss: 0.238490
+  Epoch 178 (valid) took 0.23s [processed 65 samples/second]
+ Validation Loss: 0.170065
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 179 ====
+  Epoch 179 (train) took 0.56s [processed 26 samples/second]
+ Training Loss: 0.224413
+  Epoch 179 (valid) took 0.23s [processed 64 samples/second]
+ Validation Loss: 0.166484
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 180 ====
+  Epoch 180 (train) took 0.53s [processed 28 samples/second]
+ Training Loss: 0.206789
+  Epoch 180 (valid) took 0.25s [processed 61 samples/second]
+ Validation Loss: 0.164793
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 181 ====
+  Epoch 181 (train) took 0.52s [processed 28 samples/second]
+ Training Loss: 0.184430
+  Epoch 181 (valid) took 0.23s [processed 64 samples/second]
+ Validation Loss: 0.164603
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 182 ====
+  Epoch 182 (train) took 0.49s [processed 30 samples/second]
+ Training Loss: 0.202459
+  Epoch 182 (valid) took 0.22s [processed 67 samples/second]
+ Validation Loss: 0.173228
+==== Epoch 183 ====
+  Epoch 183 (train) took 0.51s [processed 29 samples/second]
+ Training Loss: 0.206526
+  Epoch 183 (valid) took 0.23s [processed 64 samples/second]
+ Validation Loss: 0.191311
+==== Epoch 184 ====
+  Epoch 184 (train) took 0.66s [processed 22 samples/second]
+ Training Loss: 0.203011
+  Epoch 184 (valid) took 0.28s [processed 52 samples/second]
+ Validation Loss: 0.194181
+==== Epoch 185 ====
+  Epoch 185 (train) took 0.67s [processed 22 samples/second]
+ Training Loss: 0.388037
+  Epoch 185 (valid) took 0.28s [processed 52 samples/second]
+ Validation Loss: 0.167199
+==== Epoch 186 ====
+  Epoch 186 (train) took 0.78s [processed 19 samples/second]
+ Training Loss: 0.344488
+  Epoch 186 (valid) took 0.30s [processed 50 samples/second]
+ Validation Loss: 0.148930
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 187 ====
+  Epoch 187 (train) took 0.60s [processed 24 samples/second]
+ Training Loss: 0.223981
+  Epoch 187 (valid) took 0.28s [processed 52 samples/second]
+ Validation Loss: 0.144052
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 188 ====
+  Epoch 188 (train) took 0.64s [processed 23 samples/second]
+ Training Loss: 0.183476
+  Epoch 188 (valid) took 0.23s [processed 65 samples/second]
+ Validation Loss: 0.142939
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 189 ====
+  Epoch 189 (train) took 0.58s [processed 25 samples/second]
+ Training Loss: 0.158997
+  Epoch 189 (valid) took 0.23s [processed 65 samples/second]
+ Validation Loss: 0.144396
+==== Epoch 190 ====
+  Epoch 190 (train) took 0.57s [processed 26 samples/second]
+ Training Loss: 0.182066
+  Epoch 190 (valid) took 0.24s [processed 61 samples/second]
+ Validation Loss: 0.146855
+==== Epoch 191 ====
+  Epoch 191 (train) took 0.56s [processed 26 samples/second]
+ Training Loss: 0.177215
+  Epoch 191 (valid) took 0.23s [processed 64 samples/second]
+ Validation Loss: 0.149155
+==== Epoch 192 ====
+  Epoch 192 (train) took 0.57s [processed 26 samples/second]
+ Training Loss: 0.168092
+  Epoch 192 (valid) took 0.23s [processed 65 samples/second]
+ Validation Loss: 0.147346
+==== Epoch 193 ====
+  Epoch 193 (train) took 0.52s [processed 28 samples/second]
+ Training Loss: 0.183691
+  Epoch 193 (valid) took 0.23s [processed 65 samples/second]
+ Validation Loss: 0.140477
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 194 ====
+  Epoch 194 (train) took 0.61s [processed 24 samples/second]
+ Training Loss: 0.177097
+  Epoch 194 (valid) took 0.23s [processed 64 samples/second]
+ Validation Loss: 0.134290
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 195 ====
+  Epoch 195 (train) took 0.52s [processed 29 samples/second]
+ Training Loss: 0.169215
+  Epoch 195 (valid) took 0.22s [processed 68 samples/second]
+ Validation Loss: 0.129731
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 196 ====
+  Epoch 196 (train) took 0.59s [processed 25 samples/second]
+ Training Loss: 0.194218
+  Epoch 196 (valid) took 0.22s [processed 68 samples/second]
+ Validation Loss: 0.127021
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 197 ====
+  Epoch 197 (train) took 0.59s [processed 25 samples/second]
+ Training Loss: 0.157818
+  Epoch 197 (valid) took 0.23s [processed 66 samples/second]
+ Validation Loss: 0.125679
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 198 ====
+  Epoch 198 (train) took 0.54s [processed 27 samples/second]
+ Training Loss: 0.185987
+  Epoch 198 (valid) took 0.22s [processed 68 samples/second]
+ Validation Loss: 0.124355
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 199 ====
+  Epoch 199 (train) took 0.49s [processed 30 samples/second]
+ Training Loss: 0.195924
+  Epoch 199 (valid) took 0.22s [processed 69 samples/second]
+ Validation Loss: 0.122817
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 200 ====
+  Epoch 200 (train) took 0.51s [processed 29 samples/second]
+ Training Loss: 0.152975
+  Epoch 200 (valid) took 0.22s [processed 67 samples/second]
+ Validation Loss: 0.119983
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 201 ====
+  Epoch 201 (train) took 0.55s [processed 27 samples/second]
+ Training Loss: 0.174595
+  Epoch 201 (valid) took 0.22s [processed 68 samples/second]
+ Validation Loss: 0.117615
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 202 ====
+  Epoch 202 (train) took 0.56s [processed 26 samples/second]
+ Training Loss: 0.139570
+  Epoch 202 (valid) took 0.22s [processed 68 samples/second]
+ Validation Loss: 0.115651
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 203 ====
+  Epoch 203 (train) took 0.54s [processed 27 samples/second]
+ Training Loss: 0.140211
+  Epoch 203 (valid) took 0.20s [processed 74 samples/second]
+ Validation Loss: 0.114187
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 204 ====
+  Epoch 204 (train) took 0.53s [processed 28 samples/second]
+ Training Loss: 0.147400
+  Epoch 204 (valid) took 0.24s [processed 63 samples/second]
+ Validation Loss: 0.112488
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 205 ====
+  Epoch 205 (train) took 0.49s [processed 30 samples/second]
+ Training Loss: 0.148195
+  Epoch 205 (valid) took 0.22s [processed 69 samples/second]
+ Validation Loss: 0.110490
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 206 ====
+  Epoch 206 (train) took 0.48s [processed 31 samples/second]
+ Training Loss: 0.149317
+  Epoch 206 (valid) took 0.21s [processed 72 samples/second]
+ Validation Loss: 0.108818
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 207 ====
+  Epoch 207 (train) took 0.45s [processed 33 samples/second]
+ Training Loss: 0.215090
+  Epoch 207 (valid) took 0.20s [processed 73 samples/second]
+ Validation Loss: 0.107755
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 208 ====
+  Epoch 208 (train) took 0.49s [processed 30 samples/second]
+ Training Loss: 0.133173
+  Epoch 208 (valid) took 0.21s [processed 72 samples/second]
+ Validation Loss: 0.106535
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 209 ====
+  Epoch 209 (train) took 0.52s [processed 28 samples/second]
+ Training Loss: 0.136780
+  Epoch 209 (valid) took 0.21s [processed 72 samples/second]
+ Validation Loss: 0.104993
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 210 ====
+  Epoch 210 (train) took 0.49s [processed 30 samples/second]
+ Training Loss: 0.128892
+  Epoch 210 (valid) took 0.25s [processed 61 samples/second]
+ Validation Loss: 0.102857
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 211 ====
+  Epoch 211 (train) took 0.50s [processed 30 samples/second]
+ Training Loss: 0.136319
+  Epoch 211 (valid) took 0.22s [processed 68 samples/second]
+ Validation Loss: 0.100387
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 212 ====
+  Epoch 212 (train) took 0.58s [processed 25 samples/second]
+ Training Loss: 0.131120
+  Epoch 212 (valid) took 0.21s [processed 71 samples/second]
+ Validation Loss: 0.099037
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 213 ====
+  Epoch 213 (train) took 0.50s [processed 30 samples/second]
+ Training Loss: 0.115178
+  Epoch 213 (valid) took 0.21s [processed 71 samples/second]
+ Validation Loss: 0.098428
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 214 ====
+  Epoch 214 (train) took 0.50s [processed 29 samples/second]
+ Training Loss: 0.115746
+  Epoch 214 (valid) took 0.20s [processed 75 samples/second]
+ Validation Loss: 0.097743
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 215 ====
+  Epoch 215 (train) took 0.50s [processed 29 samples/second]
+ Training Loss: 0.132226
+  Epoch 215 (valid) took 0.20s [processed 73 samples/second]
+ Validation Loss: 0.095475
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 216 ====
+  Epoch 216 (train) took 0.48s [processed 31 samples/second]
+ Training Loss: 0.110349
+  Epoch 216 (valid) took 0.21s [processed 72 samples/second]
+ Validation Loss: 0.093615
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 217 ====
+  Epoch 217 (train) took 0.53s [processed 28 samples/second]
+ Training Loss: 0.112529
+  Epoch 217 (valid) took 0.21s [processed 70 samples/second]
+ Validation Loss: 0.092604
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 218 ====
+  Epoch 218 (train) took 0.54s [processed 27 samples/second]
+ Training Loss: 0.114770
+  Epoch 218 (valid) took 0.21s [processed 69 samples/second]
+ Validation Loss: 0.092010
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 219 ====
+  Epoch 219 (train) took 0.49s [processed 30 samples/second]
+ Training Loss: 0.113288
+  Epoch 219 (valid) took 0.21s [processed 71 samples/second]
+ Validation Loss: 0.090534
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 220 ====
+  Epoch 220 (train) took 0.53s [processed 28 samples/second]
+ Training Loss: 0.114302
+  Epoch 220 (valid) took 0.21s [processed 72 samples/second]
+ Validation Loss: 0.088539
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 221 ====
+  Epoch 221 (train) took 0.48s [processed 30 samples/second]
+ Training Loss: 0.125424
+  Epoch 221 (valid) took 0.21s [processed 71 samples/second]
+ Validation Loss: 0.086806
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 222 ====
+  Epoch 222 (train) took 0.51s [processed 29 samples/second]
+ Training Loss: 0.124963
+  Epoch 222 (valid) took 0.20s [processed 76 samples/second]
+ Validation Loss: 0.085259
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 223 ====
+  Epoch 223 (train) took 0.48s [processed 31 samples/second]
+ Training Loss: 0.101232
+  Epoch 223 (valid) took 0.20s [processed 73 samples/second]
+ Validation Loss: 0.083415
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 224 ====
+  Epoch 224 (train) took 0.48s [processed 31 samples/second]
+ Training Loss: 0.102976
+  Epoch 224 (valid) took 0.21s [processed 72 samples/second]
+ Validation Loss: 0.081909
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 225 ====
+  Epoch 225 (train) took 0.51s [processed 29 samples/second]
+ Training Loss: 0.098482
+  Epoch 225 (valid) took 0.20s [processed 73 samples/second]
+ Validation Loss: 0.080556
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 226 ====
+  Epoch 226 (train) took 0.46s [processed 32 samples/second]
+ Training Loss: 0.135765
+  Epoch 226 (valid) took 0.22s [processed 68 samples/second]
+ Validation Loss: 0.080101
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 227 ====
+  Epoch 227 (train) took 0.46s [processed 32 samples/second]
+ Training Loss: 0.107079
+  Epoch 227 (valid) took 0.19s [processed 78 samples/second]
+ Validation Loss: 0.079783
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 228 ====
+  Epoch 228 (train) took 0.51s [processed 29 samples/second]
+ Training Loss: 0.104759
+  Epoch 228 (valid) took 0.19s [processed 78 samples/second]
+ Validation Loss: 0.081520
+==== Epoch 229 ====
+  Epoch 229 (train) took 0.50s [processed 29 samples/second]
+ Training Loss: 0.120649
+  Epoch 229 (valid) took 0.19s [processed 79 samples/second]
+ Validation Loss: 0.085698
+==== Epoch 230 ====
+  Epoch 230 (train) took 0.54s [processed 27 samples/second]
+ Training Loss: 0.317354
+  Epoch 230 (valid) took 0.20s [processed 76 samples/second]
+ Validation Loss: 0.082120
+==== Epoch 231 ====
+  Epoch 231 (train) took 0.46s [processed 32 samples/second]
+ Training Loss: 0.089714
+  Epoch 231 (valid) took 0.21s [processed 73 samples/second]
+ Validation Loss: 0.077934
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 232 ====
+  Epoch 232 (train) took 0.48s [processed 31 samples/second]
+ Training Loss: 0.105911
+  Epoch 232 (valid) took 0.20s [processed 74 samples/second]
+ Validation Loss: 0.075801
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 233 ====
+  Epoch 233 (train) took 0.48s [processed 31 samples/second]
+ Training Loss: 0.173428
+  Epoch 233 (valid) took 0.21s [processed 70 samples/second]
+ Validation Loss: 0.075331
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 234 ====
+  Epoch 234 (train) took 0.51s [processed 29 samples/second]
+ Training Loss: 0.084156
+  Epoch 234 (valid) took 0.19s [processed 77 samples/second]
+ Validation Loss: 0.076699
+==== Epoch 235 ====
+  Epoch 235 (train) took 0.52s [processed 29 samples/second]
+ Training Loss: 0.105662
+  Epoch 235 (valid) took 0.20s [processed 73 samples/second]
+ Validation Loss: 0.079337
+==== Epoch 236 ====
+  Epoch 236 (train) took 0.48s [processed 31 samples/second]
+ Training Loss: 0.131807
+  Epoch 236 (valid) took 0.20s [processed 73 samples/second]
+ Validation Loss: 0.079724
+==== Epoch 237 ====
+  Epoch 237 (train) took 0.55s [processed 27 samples/second]
+ Training Loss: 0.426254
+  Epoch 237 (valid) took 0.21s [processed 73 samples/second]
+ Validation Loss: 0.076339
+==== Epoch 238 ====
+  Epoch 238 (train) took 0.49s [processed 30 samples/second]
+ Training Loss: 0.117643
+  Epoch 238 (valid) took 0.21s [processed 72 samples/second]
+ Validation Loss: 0.073152
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 239 ====
+  Epoch 239 (train) took 0.53s [processed 28 samples/second]
+ Training Loss: 0.085088
+  Epoch 239 (valid) took 0.21s [processed 71 samples/second]
+ Validation Loss: 0.071791
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 240 ====
+  Epoch 240 (train) took 0.49s [processed 30 samples/second]
+ Training Loss: 0.089142
+  Epoch 240 (valid) took 0.20s [processed 75 samples/second]
+ Validation Loss: 0.070996
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 241 ====
+  Epoch 241 (train) took 0.47s [processed 31 samples/second]
+ Training Loss: 0.088729
+  Epoch 241 (valid) took 0.21s [processed 72 samples/second]
+ Validation Loss: 0.070033
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 242 ====
+  Epoch 242 (train) took 0.49s [processed 30 samples/second]
+ Training Loss: 0.109357
+  Epoch 242 (valid) took 0.21s [processed 70 samples/second]
+ Validation Loss: 0.068997
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 243 ====
+  Epoch 243 (train) took 0.49s [processed 30 samples/second]
+ Training Loss: 0.077686
+  Epoch 243 (valid) took 0.22s [processed 69 samples/second]
+ Validation Loss: 0.068181
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 244 ====
+  Epoch 244 (train) took 0.58s [processed 26 samples/second]
+ Training Loss: 0.090382
+  Epoch 244 (valid) took 0.22s [processed 66 samples/second]
+ Validation Loss: 0.067735
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 245 ====
+  Epoch 245 (train) took 0.57s [processed 26 samples/second]
+ Training Loss: 0.078293
+  Epoch 245 (valid) took 0.24s [processed 61 samples/second]
+ Validation Loss: 0.067258
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 246 ====
+  Epoch 246 (train) took 0.51s [processed 29 samples/second]
+ Training Loss: 0.087914
+  Epoch 246 (valid) took 0.21s [processed 70 samples/second]
+ Validation Loss: 0.067000
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 247 ====
+  Epoch 247 (train) took 0.63s [processed 23 samples/second]
+ Training Loss: 0.080705
+  Epoch 247 (valid) took 0.23s [processed 66 samples/second]
+ Validation Loss: 0.066953
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 248 ====
+  Epoch 248 (train) took 0.55s [processed 27 samples/second]
+ Training Loss: 0.084798
+  Epoch 248 (valid) took 0.25s [processed 59 samples/second]
+ Validation Loss: 0.066518
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 249 ====
+  Epoch 249 (train) took 0.61s [processed 24 samples/second]
+ Training Loss: 0.094505
+  Epoch 249 (valid) took 0.23s [processed 64 samples/second]
+ Validation Loss: 0.065635
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 250 ====
+  Epoch 250 (train) took 0.57s [processed 26 samples/second]
+ Training Loss: 0.079160
+  Epoch 250 (valid) took 0.23s [processed 64 samples/second]
+ Validation Loss: 0.064829
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 251 ====
+  Epoch 251 (train) took 0.54s [processed 27 samples/second]
+ Training Loss: 0.086321
+  Epoch 251 (valid) took 0.22s [processed 68 samples/second]
+ Validation Loss: 0.064035
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 252 ====
+  Epoch 252 (train) took 0.54s [processed 27 samples/second]
+ Training Loss: 0.083762
+  Epoch 252 (valid) took 0.23s [processed 65 samples/second]
+ Validation Loss: 0.062811
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 253 ====
+  Epoch 253 (train) took 0.51s [processed 29 samples/second]
+ Training Loss: 0.078318
+  Epoch 253 (valid) took 0.24s [processed 62 samples/second]
+ Validation Loss: 0.061965
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 254 ====
+  Epoch 254 (train) took 0.52s [processed 28 samples/second]
+ Training Loss: 0.080435
+  Epoch 254 (valid) took 0.23s [processed 65 samples/second]
+ Validation Loss: 0.061791
+  Best result so far -- saving model as 'trained_models/overtrain/NAGModel_NAG-2020-10-12-15-56-02_model_best.pkl.gz'.
+==== Epoch 255 ====
+  Epoch 255 (train) took 0.49s [processed 30 samples/second]
+ Training Loss: 0.074259
+  Epoch 255 (valid) took 0.23s [processed 65 samples/second]
+ Validation Loss: 0.062084
+==== Epoch 256 ====
+  Epoch 256 (train) took 0.58s [processed 25 samples/second]
+ Training Loss: 0.069654
+  Epoch 256 (valid) took 0.21s [processed 70 samples/second]
+ Validation Loss: 0.062620
+==== Epoch 257 ====
+  Epoch 257 (train) took 0.55s [processed 27 samples/second]
+ Training Loss: 0.117989
+  Epoch 257 (valid) took 0.25s [processed 61 samples/second]
+ Validation Loss: 0.063617
+==== Epoch 258 ====
+  Epoch 258 (train) took 0.58s [processed 25 samples/second]
+ Training Loss: 0.076794
+  Epoch 258 (valid) took 0.21s [processed 70 samples/second]
+ Validation Loss: 0.063985
+==== Epoch 259 ====
+  Epoch 259 (train) took 0.61s [processed 24 samples/second]
+ Training Loss: 0.081817
+  Epoch 259 (valid) took 0.23s [processed 65 samples/second]
+ Validation Loss: 0.063466
