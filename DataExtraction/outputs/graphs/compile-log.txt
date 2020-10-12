@@ -1,0 +1,7 @@
+[10/12/2020 1:44:26 PM] Starting building all solutions in TestProject
+[10/12/2020 1:44:26 PM] Restoring packages for: TestProject\TinyTest.sln
+[10/12/2020 1:44:26 PM] In dir TestProject running nuget restore TinyTest.sln -NonInteractive -source https://api.nuget.org/v3/index.json
+[10/12/2020 1:44:26 PM] Exception occurred restoring NuGet: System.ComponentModel.Win32Exception, The system cannot find the file specified
+[10/12/2020 1:44:26 PM] Nuget restore took 0 minutes.
+[10/12/2020 1:44:40 PM] Starting build of C:\Users\k.rajkumar.kannan\Documents\research\cyber_fusion_labs\models\repo\graph-based-code-modelling\DataExtraction\TestProject\TinyTest.sln
+[10/12/2020 1:44:42 PM] Compilation completed for TinyTest, running extraction...

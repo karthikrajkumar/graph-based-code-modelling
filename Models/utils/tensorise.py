@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """
 Usage:
     tensorise.py [options] OUTPUT_BASE_FOLDER TYPE_LATTICE_FILE INPUT_FOLDER...
